@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="thuchanh1b"/>
+        <attribute name="authors" value="TRAN VAN TUAN"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-09-26 08:51:20 CH"/>
+        <attribute name="created" value="VFJBTiBWQU4gVFVBTjtTSy0yMDI0MDMwNzA5NDk7MjAyNS0wOS0yNjswODoxNjozNSBDSDszMDA4"/>
+        <attribute name="edited" value="VFJBTiBWQU4gVFVBTjtTSy0yMDI0MDMwNzA5NDk7MjAyNS0wOS0yNjswODo1MToyMCBDSDsxOzMxMDk="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="n" type="Integer" array="False" size=""/>
+            <output expression="&quot;Nh&#7853;p s&#7889; chai:&quot;" newline="True"/>
+            <input variable="n"/>
+            <while expression="n&gt;0">
+                <if expression="n=1">
+                    <then>
+                        <output expression="&quot;One bottle of beer on the wall&quot;" newline="True"/>
+                    </then>
+                    <else>
+                        <output expression="n &amp; &quot; bottles of beer on the wall&quot;" newline="True"/>
+                    </else>
+                </if>
+                <assign variable="n" expression="n-1"/>
+            </while>
+        </body>
+    </function>
+</flowgorithm>
