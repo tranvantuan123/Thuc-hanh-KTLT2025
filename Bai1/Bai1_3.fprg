@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="thuchanh1c"/>
+        <attribute name="authors" value="TRAN VAN TUAN"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-09-26 09:53:13 CH"/>
+        <attribute name="created" value="VFJBTiBWQU4gVFVBTjtTSy0yMDI0MDMwNzA5NDk7MjAyNS0wOS0yNjswODo1MjowNCBDSDszMDA0"/>
+        <attribute name="edited" value="VFJBTiBWQU4gVFVBTjtTSy0yMDI0MDMwNzA5NDk7MjAyNS0wOS0yNjswODo1NTo0NyBDSDsxO1RSQU4gVkFOIFRVQU47U0stMjAyNDAzMDcwOTQ5OzIwMjUtMDktMjY7MDg6MTY6MzUgQ0g7NjE4OQ=="/>
+        <attribute name="edited" value="VFJBTiBWQU4gVFVBTjtTSy0yMDI0MDMwNzA5NDk7MjAyNS0wOS0yNjswOTo1MzoxMyBDSDsxOzMxMTQ="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="x" type="Integer" array="False" size=""/>
+            <output expression="&quot;Nh&#7853;p b&#225;n k&#237;nh h&#236;nh tr&#242;n&quot;" newline="True"/>
+            <input variable="x"/>
+            <output expression="&quot;Di&#7879;n t&#237;ch l&#224; &quot; &amp; Circle(x)" newline="True"/>
+        </body>
+    </function>
+    <function name="Circle" type="None" variable="">
+        <parameters>
+            <parameter name="Radius" type="Real" array="False"/>
+        </parameters>
+        <body>
+            <declare name="Area" type="Real" array="False" size=""/>
+            <assign variable="Area" expression="3.14 * Radius ^ 2"/>
+        </body>
+    </function>
+</flowgorithm>
