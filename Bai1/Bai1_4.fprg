@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="thuchanh1d"/>
+        <attribute name="authors" value="TRAN VAN TUAN"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-09-26 10:45:14 CH"/>
+        <attribute name="created" value="VFJBTiBWQU4gVFVBTjtTSy0yMDI0MDMwNzA5NDk7MjAyNS0wOS0yNjswOTo1MzoxOCBDSDszMDEx"/>
+        <attribute name="edited" value="VFJBTiBWQU4gVFVBTjtTSy0yMDI0MDMwNzA5NDk7MjAyNS0wOS0yNjsxMDo0NToxNCBDSDsxOzMxMDg="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, h, s" type="Real" array="False" size=""/>
+            <output expression="&quot;nh&#7853;p c&#7841;nh &#273;&#225;y a&quot;" newline="True"/>
+            <input variable="a"/>
+            <output expression="&quot;nh&#7853;p chi&#7873;u cao h&quot;" newline="True"/>
+            <input variable="h"/>
+            <assign variable="s" expression="(1/2)*a*h"/>
+            <output expression="&quot;di&#7879;n t&#237;ch tam gi&#225;c l&#224;:&quot;&amp;s" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
