@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="thuchanh1a"/>
+        <attribute name="authors" value="TRAN VAN TUAN"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-09-26 08:16:12 CH"/>
+        <attribute name="created" value="VFJBTiBWQU4gVFVBTjtTSy0yMDI0MDMwNzA5NDk7MjAyNS0wOS0yNjswNzo1NDoxNSBDSDszMDA3"/>
+        <attribute name="edited" value="VFJBTiBWQU4gVFVBTjtTSy0yMDI0MDMwNzA5NDk7MjAyNS0wOS0yNjswODoxNjoxMiBDSDsyOzMxMTI="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="r, s" type="Real" array="False" size=""/>
+            <output expression="&quot;nh&#7853;p r&quot;" newline="True"/>
+            <input variable="r"/>
+            <assign variable="s" expression="r*r*3.14"/>
+            <output expression="&quot;Di&#7879;n t&#237;ch h&#236;nh tr&#242;n v&#7899;i b&#225;n k&#237;nh r l&#224;:&quot;&amp;s" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
